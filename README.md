@@ -2,7 +2,7 @@
 ## Tárgy: Full-stack webprogramozás 
 ## Készítői: Nádai Zsombor Csaba, Magyar Dorina
 
-Leírás:
+Leírás: Egyszerű kis webshop ami különleges és érdekes termékeket kínál az oldal látogatóinak.
 
 ## Alkalmazás funkcionális követelményei:
 
