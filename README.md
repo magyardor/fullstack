@@ -69,6 +69,16 @@ Leírás: Egyszerű kis webshop ami különleges és érdekes termékeket kíná
 * Tulajdonos: a termékeket tartja aktuálisan, ha elfogyott vagy már nem elérhető egy termék törli, módosíthatja a termékek nevét, leírását, árát, új terméket adhat hozzá
 * Üzemeltető (Admin): a weboldal funkcióit aktualizálja, moderátori joga van, a tulajdonos feladatait is eltudja látni és az általános felhasználó jogok is megilletik
 
+## Fejlesztői környezet
+### Backendhez használt technológiák
+
+* NetBeans 11.3
+  - java.version: 1.8.0_242
+  - java.vendor: AdoptOpenJDK - Spring-boot REST API
+* VisualStudioCode
+  - Typescript 4.0.2 - Angular frontend
+* MySql WorkBench
+
 ## Könyvtárstuktúra:
 ### Gyökérkönyvtár:
 
