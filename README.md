@@ -6,28 +6,31 @@ Leírás: Egyszerű kis webshop ami különleges és érdekes termékeket kíná
 
 ## Alkalmazás funkcionális követelményei:
 
-* Felhasználó:
-      - Amit csinálhatnak:
-        - megtekinthetik a termékeket
-        - regisztrálhatnak
-        - beléphetnek
-        - vásárolhatnak
-        - értékelhetik a vásárolt terméket
-      - Amit nem csinálhatnak:
-        - nem minden funkciót érhetnek el
-* Tulajdanos:
-      - Amit csinálhat:
-        - módosíthatja a termékek leírását, nevét ..stb
-        - törölhet terméket
-        - új terméket adhat hozzá
-      - Amit nem csinálhat:
-        - módosítani az alkalmazás
-* Üzemeltető (Admin)
-      - Amit csinálhat:
-        - módosíthatja az alkalmazást
-        - új terméket adhat hozzá
-        - módosíthatja a termékek leírását, nevét ..stb
-        - törölhet terméket
+* Regisztrált felhasználó:
+  - Amit csinálhat:
+    - megtekinthetik a termékeket
+    - módosíthatják a regisztrált adatukat
+    - beléphetnek
+    - vásárolhatnak
+    - értékelhetik a vásárolt terméket
+  - Amit nem csinálhat:
+    - valami
+* Nem regisztrált felhasználó:
+  - Amit csinálhat:
+    - megtekinthetik a termékeket
+    - regisztrálhatnak
+    - beléphetnek
+    - vásárolhatnak
+  - Amit nem csinálhat:
+    - nem minden funkciót érhetnek el
+* Tulajdanos/Admin:
+  - Amit csinálhat:
+    - módosíthatja az alkalmazást
+    - módosíthatja a termékek leírását, nevét ..stb
+    - törölhet terméket
+    - új terméket adhat hozzá
+  - Amit nem csinálhat:
+    - adatok nem megfelelő használata
         
 ## Az alkalmazás nem funkcionális követelményei:
 
