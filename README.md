@@ -66,3 +66,37 @@ Leírás: Egyszerű kis webshop ami különleges és érdekes termékeket kíná
 * Tulajdonos: a termékeket tartja aktuálisan, ha elfogyott vagy már nem elérhető egy termék törli, módosíthatja a termékek nevét, leírását, árát, új terméket adhat hozzá
 * Üzemeltető (Admin): a weboldal funkcióit aktualizálja, moderátori joga van, a tulajdonos feladatait is eltudja látni és az általános felhasználó jogok is megilletik
 
+## Könyvtárstuktúra:
+### Gyökérkönyvtár:
+
+* **backend/spring-boot mappa**
+  * **.mvn/wrapper mappák**
+    * **MavenWrapperDownloader.java**
+    * **maven-wrapper.jar**
+    * **maven-wrapper.properties**
+  * **src mappa**
+    * **main/java/com/fulltack/webshop mappák**
+      * **config mappa**
+        * **MyDataRestConfig.java**
+      * **dao mappa**
+        * **CountryRepository.java**
+        * **ProductCategoryRepository.java**
+        * **ProductRepository.java**
+        * **StateRepository.java**
+      * **entity mappa**
+        * **Country.java**
+        * **Product.java**
+        * **ProductCategory.java**
+        * **State.java**
+      * **SpringBootWebshopApplication.java**
+  * **resources mappa**
+    * **application.properties**
+  * **test mappa**
+    * **java/com/fullstack mappák**
+        * **webshop**
+  * **.gitignore**
+  * **mvnw**
+  * **mvnw.cmd**
+  * **pom.xml**
+* **Readme.md** *(a verziókövető rendszer (pl. Git) által alkalmazott szöveges fájl, mely arra szolgál, hogy a projekt iránt érdeklődők tájékozódhassanak azokról a fontos információkról, amelyeket a fejlesztők megosztanának velük (például a könyvtárstruktúra részletes leírását, remélem mindenki elolvassa idáig haha))*
+
