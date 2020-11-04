@@ -116,3 +116,13 @@ Leírás: Egyszerű kis webshop ami különleges és érdekes termékeket kíná
   * **pom.xml**
 * **Readme.md** *(a verziókövető rendszer (pl. Git) által alkalmazott szöveges fájl, mely arra szolgál, hogy a projekt iránt érdeklődők tájékozódhassanak azokról a fontos információkról, amelyeket a fejlesztők megosztanának velük (például a könyvtárstruktúra részletes leírását, remélem mindenki elolvassa idáig haha))*
 
+## Végpont tervek
+
+### Egyszerű végpontok
+
+### Adatbázisok végpontjai
+
+### Hiba végpontok
+
+### Végpont bemutatása (szekvenciáldiagram)
+
