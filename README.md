@@ -79,6 +79,9 @@ Leírás: Egyszerű kis webshop ami különleges és érdekes termékeket kíná
   - Typescript 4.0.2 - Angular frontend
 * MySql WorkBench
 
+## Adatbázis terv (UML)
+![Admin](src/main/resources/admin.png)
+
 ## Könyvtárstuktúra:
 ### Gyökérkönyvtár:
 
