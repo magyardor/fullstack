@@ -24,6 +24,8 @@ import com.fullstack.webshop.entity.Product;
 import com.fullstack.webshop.entity.ProductCategory;
 import com.fullstack.webshop.entity.Country;
 import com.fullstack.webshop.entity.State;
+import com.fullstack.webshop.entity.Customer;
+import com.fullstack.webshop.entity.Tag;
 
 
 /**
@@ -50,6 +52,8 @@ public class MyDataRestConfig implements RepositoryRestConfigurer{
         disableHttpMethods(ProductCategory.class, config, theUnsupportedActions);
         disableHttpMethods(Country.class, config, theUnsupportedActions);
         disableHttpMethods(State.class, config, theUnsupportedActions);
+        disableHttpMethods(Customer.class, config, theUnsupportedActions);
+        disableHttpMethods(Tag.class, config, theUnsupportedActions);
     
         exposeIds(config);
     }
