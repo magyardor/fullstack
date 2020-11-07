@@ -1,22 +1,20 @@
 language: java
-#java: 
-#- 11.3.0
 
-jdk:
-  -openjdk8
+# we have to override the default version 11
+jdk: openjdk8
 
-cache: yarn
+# speeding up later downloads
+cache: 
+  directories:
+    - $HOME/.m2
 
-install:
-  - yarn install
+# our Java project resides in a subfolder, so before any important script runs
+# we change to this directory
+before_install: cd server-java-issuetracker-restapi
+# In a Maven project we do not need to separately install the dependencies, 
+# because it will install it as a part of the testing process automatically,
+# so we can skip this step
+install: true
 
-script:  "yarn test"
-  #- yarn test
-  #- yarn run build
-
-deploy:
-  provider: pages
-  skip-cleanup: true
-  github-token: $GITHUB_TOKEN
-  on:
-    branch: main
+# Here we override the default test script, which is: ./mvnw -B test
+script: mvn -B test  # mvn clean install would work, too
