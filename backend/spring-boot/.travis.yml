@@ -1,14 +1,18 @@
 language: java
-java: 
-- 11.3.0
+#java: 
+#- 11.3.0
+
+jdk:
+  -openjdk8
+
 cache: yarn
 
 install:
   - yarn install
 
-script:
-  - yarn test
-  - yarn run build
+script:  "yarn test"
+  #- yarn test
+  #- yarn run build
 
 deploy:
   provider: pages
