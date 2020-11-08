@@ -125,4 +125,5 @@ Leírás: Egyszerű kis webshop ami különleges és érdekes termékeket kíná
 ### Hiba végpontok
 
 ### Végpont bemutatása (szekvenciáldiagram)
+![Admin](szekvencial.png)
 
