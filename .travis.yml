@@ -1,0 +1,21 @@
+jobs:
+  include:
+
+  - language: java
+    jdk: openjdk8
+    cache:
+      directories:
+        - $HOME/.m2
+
+    before_install: cd .\backend\spring-boot
+    install: true
+
+    script: mvn -B test  # mvn clean install is működne
+
+    deploy:
+      skip_cleanup: true
+      provider: heroku
+      api_key:
+        secure: "ONaI28ACjQFZFQSrrhPuVgwWlFzj4Z0G4xciq2/VZcywFRQjSN2XQEP8+1rzij4zrZuwBok2hI9V3MKe+YBHz65aeozoNXHd2NMmv57s1rytXH2HVfxw6EMXQxNKaVDLMnYUW7+v/LN3GAAppQ88oBb5EB3mIWq0HzIJ8eMWErCLkCr+2+ftImvPv6biLtV5B+liV05TiqCGsZpGrbmzf95rIG1vKdCyUxtlzoISrlxAFk1YnhCoAjfRJXhP0beKbiMK9dt9bGnk1lueZgQvprnohQGmD1MPP5P6c+lZJ9Q5syKB0OcyIUM8LZ5d3oTf+l7BZh7vCLs8vcF/RhanugmudtNyk86u9mU12EDzzjhJEH2qNki15kj8yneJDi+rwpz+CrsxX7YhNxFf6rniYmlcozBR8JdFNXoGHbqjaUKq1BI2IIWpWNR4UOlvu3ug/NuZ2kgBfzi/T6+MHvzq6ujMlUazhpicNT2JOQFNyhUwFIyMq8hXvKrLjRFmWTdXi+N3WUXAAWioZPbaJc+926PlwHKCfltfqrAtY+y5jYsviZ/zy9AqpWhzwG7cY/5jJMt2MZd30+1SlqY/PH4EMUkMazdQloaATQlvnSXarcbJ+KXD4xCOLIACY7HQR4kIxuLj60+79RN5tRs9jOGMKwtQcNMLqzDTAQho494YIIk="
+      app: backend4spring-boot
+      on: main
