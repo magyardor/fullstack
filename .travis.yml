@@ -7,7 +7,7 @@ jobs:
       directories:
         - $HOME/.m2
 
-    before_install: cd .\backend\spring-boot
+    before_install: cd backend\spring-boot
     install: true
 
     script: mvn -B test  # mvn clean install is működne
