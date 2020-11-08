@@ -118,12 +118,8 @@ Leírás: Egyszerű kis webshop ami különleges és érdekes termékeket kíná
 
 ## Végpont tervek
 
-### Egyszerű végpontok
-
-### Adatbázisok végpontjai
-
-### Hiba végpontok
+![Admin](vegpont.png)
 
 ### Végpont bemutatása (szekvenciáldiagram)
-![Admin](szekvencial.png)
+![Admin](szekvencial.PNG)
 
