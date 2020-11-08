@@ -5,11 +5,15 @@
  */
 package com.fullstack.webshop.entity;
 
+import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.EnumType;
 import javax.persistence.Enumerated;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -23,7 +27,7 @@ import lombok.Setter;
  * @author nzsom
  */
 @Entity
-@Table(name="country")
+@Table(name="tag")
 @Getter
 @Setter
 public class Tag {
@@ -33,14 +37,14 @@ public class Tag {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name="id")
     private int id;
-    
-    @ManyToMany
-    private Set<Customer> cumstomers;
+
     
     @Enumerated(EnumType.STRING)
     @Column(name = "tagType")
     private TagType tagType;
             
+    @ManyToMany(fetch = FetchType.LAZY, cascade = CascadeType.ALL, mappedBy = "tag")
+    private Set<Customer> customers = new HashSet<>();
           
 }
 

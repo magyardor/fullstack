@@ -5,11 +5,17 @@
  */
 package com.fullstack.webshop.entity;
 
+import java.util.HashSet;
+import java.util.Set;
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
 import javax.persistence.Table;
 import lombok.Data;
@@ -29,10 +35,6 @@ public class Customer{
     
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    
-    
-    
-    
     @Column(name = "id")
     private Long id;
     
@@ -92,4 +94,10 @@ public class Customer{
     
     @Column(name = "expYear")
     private int expYear;
+    
+    @ManyToMany(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
+    @JoinTable(name = "cutomertotag",
+                joinColumns = { @JoinColumn(name = "customer_id")},
+		inverseJoinColumns = { @JoinColumn (name = "tag_id")})
+    private Set<Tag> tags = new HashSet<>();
 }
