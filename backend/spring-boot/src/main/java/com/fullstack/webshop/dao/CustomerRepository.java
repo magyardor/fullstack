@@ -9,15 +9,14 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import com.fullstack.webshop.entity.Customer;
-import org.springframework.stereotype.Repository;
 /**
  *
  * @author nzsom
  */
 
 @CrossOrigin("http://localhost:4200")
-//@RepositoryRestResource(collectionResourceRel = "customer", path = "customer")
-@Repository
+@RepositoryRestResource(collectionResourceRel = "customer", path = "customer")
+
 public interface CustomerRepository extends JpaRepository<Customer, Long>{
     
 }
