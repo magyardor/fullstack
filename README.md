@@ -1,4 +1,4 @@
-# Webshop
+# Luv2shop
 ## Tárgy: Full-stack webprogramozás 
 ## Készítői: Nádai Zsombor Csaba, Magyar Dorina
 
@@ -86,7 +86,7 @@ Leírás: Egyszerű kis webshop ami különleges és érdekes termékeket kíná
 ## Adatbázis terv (UML)
 ![Admin](db.png)
 
-## Fejlesztői környezet
+## Fejlesztői környezet beállítása
 Leírás link: https://github.com/Mojoj97/fullstackFrontend/blob/master/README.md
 
 ## Könyvtárstuktúra:
@@ -198,9 +198,8 @@ Leírás link: https://github.com/Mojoj97/fullstackFrontend/blob/master/README.m
 
 ## Használati eset diagram
 
-### Regisztrált felhasználó:
-
-### Nem regisztrált felhasználó:
+### Regisztrált és nem regisztrált felhasználó:
+![Admin](felhasznaloi-usecase.png)
 
 ### Tulajdonos/Admin:
 
