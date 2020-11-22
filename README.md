@@ -75,15 +75,22 @@ Leírás: Egyszerű kis webshop ami különleges és érdekes termékeket kíná
 * NetBeans 11.3
   - java.version: 1.8.0_242
   - java.vendor: AdoptOpenJDK - Spring-boot REST API
-* VisualStudioCode
-  - Typescript 4.0.2 - Angular frontend
 * MySql WorkBench
+
+### Frontendhez használt technológiák
+* VisualStudioCode
+  - Typescript 4.0.2 - Angular frontend 11.0.1
+  - HTML5/CSS3
+  - JSON
 
 ## Adatbázis terv (UML)
 ![Admin](db.png)
 
+## Fejlesztői környezet
+Leírás link: https://github.com/Mojoj97/fullstackFrontend/blob/master/README.md
+
 ## Könyvtárstuktúra:
-### Gyökérkönyvtár:
+### Backend gyökérkönyvtár:
 
 * **backend/spring-boot mappa**
   * **.mvn/wrapper mappák**
@@ -116,6 +123,72 @@ Leírás: Egyszerű kis webshop ami különleges és érdekes termékeket kíná
   * **pom.xml**
 * **Readme.md** *(a verziókövető rendszer (pl. Git) által alkalmazott szöveges fájl, mely arra szolgál, hogy a projekt iránt érdeklődők tájékozódhassanak azokról a fontos információkról, amelyeket a fejlesztők megosztanának velük (például a könyvtárstruktúra részletes leírását, remélem mindenki elolvassa idáig haha))*
 
+### Frontend gyökérkönyvtár:
+
+* **e2e**
+  * **src**
+    * **app.e2e-spec.ts**
+    * **app.po.ts**
+  * **protractor.conf.json**
+  * **tsconfig.json**
+* **src**
+  * **app**
+    * **common**
+      * **product.spec.ts**
+      * **product.ts**
+    * **components/product-list**
+      * **product-list-grid.component.html**
+      * **product-list-table.component.html**
+      * **product-list.component.css**
+      * **product-list.component.html**
+      * **product-list.component.spec.ts**
+      * **product-list.component.ts**
+    * **services**
+      * **product.service.spec.ts**
+      * **product.service.ts**
+    * **app.component.css**
+    * **app.component.html**
+    * **app.component.spec.ts**
+    * **app.component.ts**
+    * **app.module.ts**
+  * **assets**
+    * **images**
+      * **products**
+        * **books**
+          * **book-luv2code-1000.png-book-luv2code-1024.png**
+        * **coffeemugs**
+          * **coffeemug-luv2code-1000.png-coffeemug-luv2code-1024.png**
+        * **luggagetags**
+          * **luggagetags-luv2code-1000.png-luggagetags-luv2code-1024.png**
+        * **mousepads**
+          * **mousepad-luv2code-1000.png-mousepad-luv2code-1024.png**
+        * **placeholder.png**
+      * **logo.png**
+      * **webshop.png**
+    * **.gitkeep**
+  * **environments**
+    * **environment.prod.ts**
+    * **environment.ts**
+  * **favicon.ico**
+  * **index.html**
+  * **main.ts**
+  * **polyfills.ts**
+  * **style.css**
+  * **test.ts**
+* **.rowserslistrc**
+* **.editorconfig**
+* **.gitignore**
+* **.travis.yml**
+* **README.md**
+* **angular.json**
+* **karma.conf.js**
+* **package-lock.json**
+* **package.json**
+* **tsconfig.app.json**
+* **tsconfig.json**
+* **tsconfig.spec.json**
+* **tslint.json**
+
 ## Végpont tervek
 
 ![Admin](vegpont.png)
@@ -123,3 +196,13 @@ Leírás: Egyszerű kis webshop ami különleges és érdekes termékeket kíná
 ### Végpont bemutatása (szekvenciáldiagram)
 ![Admin](szekvencial.PNG)
 
+## Használati eset diagram
+
+### Regisztrált felhasználó:
+
+### Nem regisztrált felhasználó:
+
+### Tulajdonos/Admin:
+
+## Felület tervek:
+![Admin](felulet-terv.PNG)
