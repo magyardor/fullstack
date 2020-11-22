@@ -205,4 +205,4 @@ Leírás link: https://github.com/Mojoj97/fullstackFrontend/blob/master/README.m
 ### Tulajdonos/Admin:
 
 ## Felület tervek:
-![Admin](felulet-terv.PNG)
+![Admin](felulet-terv.png)
