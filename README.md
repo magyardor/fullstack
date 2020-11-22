@@ -199,7 +199,7 @@ Leírás link: https://github.com/Mojoj97/fullstackFrontend/blob/master/README.m
 ## Használati eset diagram
 
 ### Regisztrált és nem regisztrált felhasználó:
-![Admin](felhasznaloi_usecase.png)
+![Admin](felhasznaloi_usecase.PNG)
 
 ### Tulajdonos/Admin:
 
