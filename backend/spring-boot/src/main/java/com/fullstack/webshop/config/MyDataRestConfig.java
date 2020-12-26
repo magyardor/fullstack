@@ -32,6 +32,8 @@ import com.fullstack.webshop.entity.Tag;
  *
  * @author nzsom
  */
+
+
 @Configuration
 public class MyDataRestConfig implements RepositoryRestConfigurer{
     
