@@ -13,10 +13,10 @@ import com.fullstack.webshop.entity.Customer;
  *
  * @author nzsom
  */
-
+/*
 @CrossOrigin("http://localhost:4200")
 @RepositoryRestResource(collectionResourceRel = "customer", path = "customer")
-
-public interface CustomerRepository extends JpaRepository<Customer, Long>{
-    
+*/
+public interface CustomerRepository extends JpaRepository<Customer, Long> {
 }
+
