@@ -85,6 +85,7 @@ Leírás: Egyszerű kis webshop ami különleges és érdekes termékeket kíná
 
 ## Adatbázis terv (UML)
 ![Admin](db.png)
+![Admin](db2.png)
 
 ## Fejlesztői környezet beállítása
 Leírás link: https://github.com/Mojoj97/fullstackFrontend/blob/master/README.md
