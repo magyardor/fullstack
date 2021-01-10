@@ -207,3 +207,21 @@ Leírás link: https://github.com/Mojoj97/fullstackFrontend/blob/master/README.m
 
 ## Felület tervek:
 ![Admin](felulet-terv.png)
+
+## Kliensoldali szolgáltatások:
+* **termékek keresés** *(kereső funkció: termékek között névvel keresés)*
+* **kosár megnézése** *(kosár ikon: megnyomásával megjelenik a kosár tartalma)*
+* **kosár módosítása** *(kosáron belül található több gomb is)*
+ * **termék szám növelése, csökkentése** *(plusz,minusz gomb lenyomása)*
+ * **termék törlése** *(kuka ikonú gomb lenyomásával kikerül a termék a kosárból)*
+* **vásárlás** *(megjelenik a Costumer oldal, ahol az adatok megadásával és gomb lenyomásával véglegesítheti a rendelést)*
+* **bejelentkezés, kijelentkezés** *(bejelentkezési felület, megfelelő adatok megadásával folytathatja a vásárlást)*
+* **regisztráció** *(regisztráció során az adatok megadása után belehet jelentkezni az oldalra)*
+
+## Kapcsolat a serverrel:
+
+## Egy funkció folyamata:
+
+## Tesztelés:
+
+## Felhasználói dokumentáció:
