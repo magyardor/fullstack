@@ -117,7 +117,13 @@ Leírás link: https://github.com/Mojoj97/fullstackFrontend/blob/master/README.m
     * **application.properties**
   * **test mappa**
     * **java/com/fullstack mappák**
-        * **webshop**
+        * **GreetingController.java**
+        * **GreetingService.java**
+        * **HttpRequestTest.java**
+        * **SmokeTest.java**
+        * **SpringBootWebshopApplicationTests.java**
+        * **TestingWebApplicationTest.java**
+        * **WebMockTest.java**
   * **.gitignore**
   * **mvnw**
   * **mvnw.cmd**
@@ -156,13 +162,9 @@ Leírás link: https://github.com/Mojoj97/fullstackFrontend/blob/master/README.m
     * **images**
       * **products**
         * **books**
-          * **book-luv2code-1000.png-book-luv2code-1024.png**
         * **coffeemugs**
-          * **coffeemug-luv2code-1000.png-coffeemug-luv2code-1024.png**
         * **luggagetags**
-          * **luggagetags-luv2code-1000.png-luggagetags-luv2code-1024.png**
         * **mousepads**
-          * **mousepad-luv2code-1000.png-mousepad-luv2code-1024.png**
         * **placeholder.png**
       * **logo.png**
       * **webshop.png**
@@ -200,7 +202,7 @@ Leírás link: https://github.com/Mojoj97/fullstackFrontend/blob/master/README.m
 ## Használati eset diagram
 
 ### Regisztrált és nem regisztrált felhasználó:
-![Admin](felhasznaloi_usecase.PNG)
+![Admin](felhasznaloi.PNG)
 
 ### Tulajdonos/Admin:
 ![Admin](admin_usecase.PNG)
@@ -219,9 +221,17 @@ Leírás link: https://github.com/Mojoj97/fullstackFrontend/blob/master/README.m
 * **regisztráció** *(regisztráció során az adatok megadása után belehet jelentkezni az oldalra)*
 
 ## Kapcsolat a serverrel:
-
+![Admin](kapcsolat_a_szerverrel.png)
 ## Egy funkció folyamata:
+BÖGREVÉTEL:
+
+A kliens a fő oldalon van -> jobb oldalt rákattint a "Coffee Mugs" menüpontra -> a kereső menüben beírja hogy "Aspire" -> a "Search gombra kattint -> a "Coffee Mug - Aspire" nevű bögre képére kattint -> elolvassa a termék leírását -> Rákattint az "Add To Cart" gombra -> jobb felső sarokban rákattint a kosár ikonra -> Ellenőrzi a kosár tartalmát -> 2-re növeli a bögre számát -> Rákattint a "checkout" gombra -> Kitölti az adatait -> Mégegyszer ellenőrzi a rendelését -> rákattint a "Purchase" gombra -> Előugró ablakban visszajelzi, hogy a rendelés rögzítve van -> kiírja a rendszer a "tracking numbert" -> rögzíti a rendelést az adatbázisban
+![Admin](Folyamat1.PNG)
+![Admin](Folyamat2.PNG)
+![Admin](Folyamat3.PNG)
+![Admin](Folyamat4.PNG)
 
 ## Tesztelés:
-
+![Admin](tesztesetek.png)
 ## Felhasználói dokumentáció:
+Ahogy a felület terven és a funkció bemutatásánál látszik, nagyon egyszerű kezelni az oldalt. A felhasználó számára egyértelmü elnevezéseket adtunk a funkcióknak. A felhasználó közel 100 temék közül válogathat kedvére. Ha kiválasztotta az adott terméket, amit megszeretne vásárolni, akkor csak a kosarához kell adni a megfelelő gombbal ha többet szeretne venni egy adott termékből vagy törölni szeretné utólag a kosarában erre van lehetőség. Ha biztos a megvásárlandó termékekbe akkor az adatai megadásával bankártyás fizetéssel véglegesítve leadhatja a rendelését, amit mi feldolgozunk.
