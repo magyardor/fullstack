@@ -194,7 +194,7 @@ Leírás link: https://github.com/Mojoj97/fullstackFrontend/blob/master/README.m
 ![Admin](felhasznaloi.PNG)
 
 ### Tulajdonos/Admin:
-![Admin](admin_usecase.PNG)
+![Admin](admin.PNG)
 
 ## Felület tervek:
 ![Admin](felulet-terv.png)
