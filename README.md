@@ -65,8 +65,7 @@ Leírás: Egyszerű kis webshop ami különleges és érdekes termékeket kíná
 
 ## Szerepkörök:
 
-* Regisztrált felhasználó: általános felhasználó, aki termékeket tud megvásárolni és ha be van jelentkezve értékelheti a terméket
-* Nem regisztrált felhasználó: általános felhasználó, aki termékeket tud vásárolni, de nem minden funkciót ér el az oldalon (például: termék értékelése)
+* Felhasználó: általános felhasználó, aki termékeket tud keresni és megvásárolni.
 * Tulajdonos (Admin):  a weboldal funkcióit aktualizálja, moderátori joga van, a termékeket tartja aktuálisan, ha elfogyott vagy már nem elérhető egy termék törli, módosíthatja a termékek nevét, leírását, árát, új terméket adhat hozzá
 
 ## Fejlesztői környezet
