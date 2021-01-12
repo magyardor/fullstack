@@ -12,7 +12,7 @@ Leírás: Egyszerű kis webshop ami különleges és érdekes termékeket kíná
     - módosíthatják a kosarukat
     - vásárolhatnak
   - Amit nem csinálhat:
-    - módosítani a termék
+    - módosítani az oldalt
 * Tulajdanos/Admin:
   - Amit csinálhat:
     - módosíthatja az alkalmazást
