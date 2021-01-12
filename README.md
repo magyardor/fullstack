@@ -6,23 +6,13 @@ Leírás: Egyszerű kis webshop ami különleges és érdekes termékeket kíná
 
 ## Alkalmazás funkcionális követelményei:
 
-* Regisztrált felhasználó:
+* Felhasználó:
   - Amit csinálhat:
     - megtekinthetik a termékeket
-    - módosíthatják a regisztrált adatukat
-    - beléphetnek
-    - vásárolhatnak
-    - értékelhetik a vásárolt terméket
-  - Amit nem csinálhat:
-    - valami
-* Nem regisztrált felhasználó:
-  - Amit csinálhat:
-    - megtekinthetik a termékeket
-    - regisztrálhatnak
-    - beléphetnek
+    - módosíthatják a kosarukat
     - vásárolhatnak
   - Amit nem csinálhat:
-    - nem minden funkciót érhetnek el
+    - módosítani a termék
 * Tulajdanos/Admin:
   - Amit csinálhat:
     - módosíthatja az alkalmazást
@@ -200,7 +190,7 @@ Leírás link: https://github.com/Mojoj97/fullstackFrontend/blob/master/README.m
 
 ## Használati eset diagram
 
-### Regisztrált és nem regisztrált felhasználó:
+### Felhasználó:
 ![Admin](felhasznaloi.PNG)
 
 ### Tulajdonos/Admin:
